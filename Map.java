@@ -48,7 +48,7 @@ public class Map
                 Double tempX = p.getX();
                 Double tempY = p.getY();
                 System.out.print(tempX.intValue() +","+ tempY.intValue() +"-"+ 
-                    grid.get(p).size()+ "\t\t");
+                    grid.get(p).size()+ "\t");
 
             }
             System.out.println();
